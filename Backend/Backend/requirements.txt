@@ -1,9 +1,8 @@
 fastapi
 uvicorn
 gunicorn
+openai
 pydantic
 python-dotenv
 bcrypt
-sqlalchemy
-groq
 python-jose[cryptography]

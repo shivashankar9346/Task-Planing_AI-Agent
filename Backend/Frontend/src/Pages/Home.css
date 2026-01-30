@@ -1,0 +1,98 @@
+/* Reset (optional but recommended) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container */
+.home-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f9fafb;
+   overflow-y: auto; 
+  font-family: 'Poppins', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Navbar */
+.home-nav {
+  height: 10vh;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  flex-shrink: 0;
+}
+
+/* Logo */
+.home-logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #121212;
+}
+
+/* Nav buttons */
+.home-nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+/* Main content */
+.home-content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+
+}
+
+/* Heading */
+.home-content h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #131b23;
+  text-align: start;
+}
+
+/* Action buttons */
+.home-actions {
+  display: flex;
+  gap: 20px;
+}
+
+/* Buttons */
+.primary-btn {
+  padding: 12px 28px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: #1d4ed8;
+}
+
+.secondary-btn {
+  padding: 12px 28px;
+  border: 2px solid #2563eb;
+  color: #2563eb;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background: #2563eb;
+  color: white;
+}
