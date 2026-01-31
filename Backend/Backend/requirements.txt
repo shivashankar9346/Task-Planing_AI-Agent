@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-gunicorn
-openai
-pydantic
-python-dotenv
-bcrypt
-python-jose[cryptography]

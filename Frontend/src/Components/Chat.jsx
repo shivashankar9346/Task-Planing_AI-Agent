@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { Send, User, Bot, Loader2, LogOut } from "lucide-react";
 import ReactMarkdown from "react-markdown"; // 1. Added this import
-import "./chat.css";
+import "./Chat.css";
 
 const API_URL = "http://localhost:8000/chat/";
 
