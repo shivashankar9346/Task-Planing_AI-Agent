@@ -5,7 +5,7 @@ import { Send, User, Bot, Loader2, LogOut } from "lucide-react";
 import ReactMarkdown from "react-markdown"; // 1. Added this import
 import "./Chat.css";
 
-const API_URL = "https://ai-agent-1c6j.onrender.com";
+const API_URL = "https://ai-agent-1c6j.onrender.com/chat";
 
 export default function Chat() {
   const [messages, setMessages] = useState([]);
