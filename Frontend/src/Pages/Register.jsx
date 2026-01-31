@@ -10,7 +10,7 @@ export default function Register() {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:8000/register", form);
+      await axios.post("https://ai-agent-1c6j.onrender.com/register", form);
       alert("Registration Successful! Now please login.");
       navigate("/login");
     } catch (err) {
