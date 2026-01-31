@@ -25,7 +25,7 @@ export default function Login() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:8000/login",
+        "https://ai-agent-1c6j.onrender.com/login",
         form,
         {
           headers: {
