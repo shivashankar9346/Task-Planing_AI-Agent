@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .db import Base, engine
-from auth import router as auth_router
-from chat import router as chat_router
+from .auth import router as auth_router
+from .chat import router as chat_router
 
 app = FastAPI(title="AI Agent Planner Backend")
 
